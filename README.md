@@ -1,2 +1,4 @@
 # deep_learning
-Sample codes of neural networks
+# Deep Learning Made Accessible.
+This repo contains implementation of Deep Learning algorithms.
+Some examples are also ported on Android phones. 
