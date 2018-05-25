@@ -1,5 +1,5 @@
-input_items = [int(item) for item in input().split()]
-input_list = [int(item) for item in input().split()]
+input_items = list(map(int, input().split()))
+input_list = list(map(int, input().split()))
 input_list[input_items[1] - 1] = -211
 item_to_find = input_list[input_items[1] - 1]
 for i in range(input_items[2]):
@@ -8,7 +8,7 @@ for i in range(input_items[2]):
         input_list = input_list[op_to_perform-1::-1] + \
                     input_list[op_to_perform:]
     elif op_to_perform < 0:
-        final_op_to_perform = len(input_list) + op_to_perform
+        final_op_to_perform = input_items[0] + op_to_perform
         new_update = input_list[final_op_to_perform::]
         new_update = new_update[::-1]
         input_list = input_list[:final_op_to_perform] + new_update
