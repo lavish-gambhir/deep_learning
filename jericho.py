@@ -1,3 +1,4 @@
+# lge codejam --> question 2
 def main():
     input_items = [int(item) for item in input().split()]
     input_list = [int(item) for item in input().split()]
