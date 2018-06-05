@@ -1,0 +1,2 @@
+https://medium.com/botsupply/generative-model-chatbots-e422ab08461e
+https://machinelearningmastery.com/define-encoder-decoder-sequence-sequence-model-neural-machine-translation-keras/
