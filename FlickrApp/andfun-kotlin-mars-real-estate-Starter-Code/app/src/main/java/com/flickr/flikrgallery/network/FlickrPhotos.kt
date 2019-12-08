@@ -1,4 +1,4 @@
-package com.example.android.marsrealestate.network
+package com.flickr.flikrgallery.network
 
 import com.google.gson.annotations.SerializedName
 
@@ -12,7 +12,7 @@ data class FlickrPhotos(
         @SerializedName("total")
         val total: String,
         @SerializedName("photo")
-        val photo: List<FlickrPhoto>,
+        val photo: ArrayList<FlickrPhoto>,
         @SerializedName("stat")
         val stat: String
 )
@@ -47,8 +47,4 @@ data class FlickrPhoto(
 data class FlickrResult (
         @SerializedName("photos")
         val photos: FlickrPhotos
-)
-
-data class Result (
-        var imageUrl: String
 )
